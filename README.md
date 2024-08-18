@@ -17,7 +17,7 @@
 
 ## Overview 
 - This project demonstrates API testing using Java with Rest Assured and TestNG. 
-- The project is designed to automate various API tests, including authentication, booking creation, and retrieval. 
+- The project is designed to automate various API tests, including authentication, booking creation, and retrieval list of Booking. 
 - The project follows best practices in automation, including the use of the Page Object Model (POM) pattern and data-driven testing.
 
 ## Project Structure
