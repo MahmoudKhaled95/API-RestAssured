@@ -125,15 +125,19 @@
 
 ## Demo Videos
 
-1- Scenario 1: 
+1- Scenario 1: In the first scenario, I used data from body.json containing the username and password. The response returned a token, which was not empty, and the status was 200 OK. I saved the token in a global variable for use in other requests. When entering an invalid username or password, the system correctly refused the request and did not generate a token.
+
 
 https://github.com/user-attachments/assets/470ac852-570b-4296-8015-df4f0280cf31
 
-2- Scenario 2 : 
+
+2- Scenario 2 : In the second scenario, I used a POST request to verify that a booking was added. I utilized test data from bookingData.json and asserted the response body to check if the data was added successfully. The response was 200 OK, indicating that the data was added correctly. When entering invalid data, the system appropriately handled the error
+
 
 https://github.com/user-attachments/assets/225e1f4d-2a4b-4714-87e9-3ca09a2adf10
 
-3- Scenario 3 :
+
+3- Scenario 3 : In the third scenario, I attempted to retrieve a list of bookings and discovered that I could do so without an auth token. I checked the list and found that it was not empty and returned values, but these values were modifiable.
 
 https://github.com/user-attachments/assets/b93edeae-377b-4620-aaec-6b47d30fca81
 
