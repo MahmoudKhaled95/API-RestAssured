@@ -49,7 +49,7 @@
         -  body.json: json file used for request auth.
         -  bookingData.json: JSON file containing booking data for tests.
 
-- encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern.
+- Implement the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern.
   
  1. POM Pattern of my Project :
     
