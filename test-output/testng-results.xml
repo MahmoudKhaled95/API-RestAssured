@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-18T19:26:04 EEST" name="First" finished-at="2024-08-18T19:26:09 EEST" duration-ms="5321">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T19:26:04 EEST" name="Default test" finished-at="2024-08-18T19:26:09 EEST" duration-ms="5321">
+      <class name="Test1.bookingGET">
+        <test-method signature="validateGETLIST()[pri:0, instance:Test1.bookingGET@46944ca9]" started-at="2024-08-18T19:26:07 EEST" name="validateGETLIST" finished-at="2024-08-18T19:26:09 EEST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGETLIST -->
+      </class> <!-- Test1.bookingGET -->
+      <class name="Test1.bookingPOST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test1.bookingPOST@17aad511]" started-at="2024-08-18T19:26:06 EEST" name="setup" finished-at="2024-08-18T19:26:06 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAddItemSuccess()[pri:0, instance:Test1.bookingPOST@17aad511]" started-at="2024-08-18T19:26:06 EEST" name="validateAddItemSuccess" finished-at="2024-08-18T19:26:07 EEST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemSuccess -->
+      </class> <!-- Test1.bookingPOST -->
+      <class name="Test1.authPOST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test1.authPOST@59b38691]" started-at="2024-08-18T19:26:04 EEST" name="setup" finished-at="2024-08-18T19:26:04 EEST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAddItemSuccess()[pri:0, instance:Test1.authPOST@59b38691]" started-at="2024-08-18T19:26:04 EEST" name="validateAddItemSuccess" finished-at="2024-08-18T19:26:06 EEST" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemSuccess -->
+      </class> <!-- Test1.authPOST -->
+    </test> <!-- Default test -->
+  </suite> <!-- First -->
+</testng-results>

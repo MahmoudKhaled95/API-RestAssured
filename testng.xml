@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<suite name="First">
+  <test name="Default test" verbose="2">
+    <classes>
+       <class name="Test1.authPOST"/>
+       <class name="Test1.bookingPOST"/>
+       <class name="Test1.bookingGET"/>
+
+    </classes>
+  </test>  
+</suite>  
