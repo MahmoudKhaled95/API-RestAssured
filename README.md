@@ -46,8 +46,8 @@
      
 2- src/test/resources:
    - Contains data-driven files used in tests.
-        -  body.json: json file used for request auth.
-        -  bookingData.json: JSON file containing booking data for tests.
+         -  body.json: json file used for request auth.
+         -  bookingData.json: JSON file containing booking data for tests.
 
 - Implement the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern.
   
